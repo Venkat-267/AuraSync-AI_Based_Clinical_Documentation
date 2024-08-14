@@ -1,0 +1,8 @@
+import translators as ts
+translated = ts.translate_text(
+            query_text="Hello",
+            translator="bing",
+            from_language="en",
+            to_language="ta",
+        )
+print("Translation: ", translated)
